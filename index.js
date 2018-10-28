@@ -10,7 +10,7 @@ EXPOSE 443
 `;
 
 // template name
-exports.name = 'static';
+exports.name = 'exoframe-template-arm32v7-php';
 
 // function to check if the template fits this recipe
 exports.checkTemplate = async ({tempDockerDir}) => {
