@@ -1,6 +1,6 @@
 {
   "name": "exoframe-template-arm32v7-php",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PHP Apache deployment template for exoframe",
   "main": "index.js",
   "scripts": {
