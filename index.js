@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const phpDockerfile = `FROM arm32v7/php:7.2-apache
+const phpDockerfile = `FROM arm32v7/php:7.3-apache
 COPY . /var/www/html/
 RUN chmod -R 755 /var/www/html/
 EXPOSE 80
